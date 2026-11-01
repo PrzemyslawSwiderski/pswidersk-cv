@@ -1,0 +1,2 @@
+pypandoc==1.17
+PyTinyTeX==0.5.1
