@@ -3,7 +3,8 @@ import os
 import pypandoc
 import pytinytex
 
-pytinytex.download_tinytex()
+# Variation = 2 to fix: "Can't handle your platform (only Linux, Mac OS X, Windows)."
+pytinytex.download_tinytex(variation=2)
 
 INPUT_MD_FILE = 'src/CV.md'
 OUTPUT_DIR = 'build/CV'
