@@ -24,9 +24,9 @@ Zgierz, Poland · przemyslaw.swiderski7@gmail.com
 ## Summary
 
 Software developer with 10+ years of experience building and deploying microservices on Kubernetes for banks and
-financial institutions, mainly working in Agile teams in international environments. Background in AI/machine learning
-and data science. Approaches problems from a higher level of abstraction, revisits requirements and favors simple
-solutions.
+financial institutions, primarily working in Agile teams within international environments. Background in AI, machine
+learning, and data science. Approaches problems at a higher level of abstraction, reassesses requirements, and prefers
+simple, effective solutions.
 
 ## Experience
 
@@ -37,11 +37,12 @@ solutions.
 - Building a Financial Planning platform in a multinational team.
 - Cooperating with UK-based business to clarify requirements and apply Agile software development in practice.
 - Deploying and troubleshooting applications in Kubernetes clusters.
-- Migrating legacy applications to Java 21 and Spring Boot 3.
+- Migrating legacy applications to the latest Java and Spring Boot versions.
 - Fixing security vulnerabilities.
-- Developing a RAG application with the Spring AI framework and a vector database.
+- Developing an MCP server with the Spring AI framework and a RAG vector database.
+- Designing and implementing a solution for generating DOCX and PDF documents based on dynamic financial data.
 
-### Full-Stack Developer, Groupe SII
+### Full-Stack Developer, BNY Mellon
 
 *Full remote, Poland* · *April 2021 – June 2022*
 
@@ -54,24 +55,25 @@ solutions.
 
 ### Software Engineer, TomTom
 
-*Łódź, Poland* · *September 2018 – April 2021*
+*Lodz, Poland* · *September 2018 – April 2021*
 
 - Data science and full-stack role with an emphasis on backend.
 - Analyzed and extracted features from car trip datasets with more than a million records.
 - Designed and developed microservices for the Autonomous Driving department.
-- Worked with AWS and Azure clouds and Kubernetes clusters.
-- Learned Java, Kotlin and Python, as well as new frameworks such as Spring Boot, Camel, Apache Kafka and React.
+- Worked with AWS and Azure, Kubernetes clusters, and Terraform infrastructure as code.
+- Learned Java, Kotlin and Python, as well as frameworks such as Spring Boot, Camel, Apache Kafka and React.
 
 ### Software Developer, Groupe SII
 
-*Łódź, Poland* · *February 2018 – September 2018*
+*Lodz, Poland* · *February 2018 – September 2018*
 
 - Developed and connected web services based on integration solutions such as IBM Integration Bus, IBM BPM, TIBCO
   BusinessWorks and WebMethods.
+- Engineered Python-based automation for streamlined XML processing and IBM Integration Bus (IIB) solutions at EFL.
 
 ### Software Engineering Associate, Accenture
 
-*Łódź, Poland* · *September 2017 – February 2018*
+*Lodz, Poland* · *September 2017 – February 2018*
 
 - Maintained a Java SE project and implemented new features.
 - Connected a worldwide Java SE retail application with external JSON REST services.
@@ -79,7 +81,7 @@ solutions.
 
 ### Programmer, Comarch SA
 
-*Łódź, Poland* · *March 2016 – November 2016*
+*Lodz, Poland* · *March 2016 – November 2016*
 
 - Implemented CRM systems for the banking industry in Java with the Spring and Struts frameworks.
 - Worked with an Oracle database and Tomcat and WebLogic servers.
@@ -89,13 +91,13 @@ solutions.
 
 ### Master's degree in Computer Science, Lodz University of Technology
 
-*Łódź, Poland* · *2018*
+*Lodz, Poland* · *2018*
 
 Thesis: Prediction of medical variables with artificial neural networks based on the PLCO screening trial.
 
 ### Bachelor's degree, Lodz University of Technology
 
-*Łódź, Poland* · *2017*
+*Lodz, Poland* · *2017*
 
 Thesis: Usage of a SaaS platform for development of an application supporting bookkeeping in a small company.
 

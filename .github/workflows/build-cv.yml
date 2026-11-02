@@ -1,0 +1,44 @@
+name: 🥁 Build CV
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v6
+
+      - name: Build CV outputs
+        run: ./gradlew --no-daemon pandocRun
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: cv-files
+          path: build/CV/**
+
+      - name: Set release tag
+        id: release-date
+        run: echo "tag=$(date -u +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub release and attach files
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ steps.release-date.outputs.tag }}
+          overwrite_files: true
+          files: build/CV/**
