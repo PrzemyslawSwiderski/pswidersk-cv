@@ -2,7 +2,8 @@
 
 This project is to automate the CV file generation and maintaining.
 
-## Usage
+## Local usage
 
 1. Run `pandocRun` Gradle task.
-2. Check `build` catalog for the generated `CV.pdf`, `CV.docx` and other files. 
+2. Wait for the build to finish. The generated files will be in the `build/CV` catalog.
+3. Check the `build/CV` catalog for the generated `CV.pdf`, `CV.docx` and other files.
