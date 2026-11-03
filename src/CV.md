@@ -1,25 +1,37 @@
 ---
 title: Przemysław Świderski
-subtitle: Senior Software Engineer
-geometry: margin=1.8cm
-fontsize: 10pt
+subtitle: Software Engineer
+geometry: margin=1.7cm
+fontsize: 12pt
 colorlinks: true
 linkcolor: NavyBlue
 urlcolor: NavyBlue
 header-includes: |
   \usepackage{graphicx}
+  \usepackage{fontawesome5}
   \usepackage{eso-pic}
+  \usepackage{fancyhdr}
   \pagenumbering{gobble}
+  \fancypagestyle{plain}{%
+    \fancyhf{}%
+    \fancyfoot[C]{\footnotesize I hereby consent to the processing of my personal data for the purposes of the recruitment process.}%
+    \renewcommand{\headrulewidth}{0pt}%
+  }
+  \pagestyle{plain}
 ---
 
 ```{=latex}
 \AddToShipoutPictureFG*{%
   \AtPageUpperLeft{%
     \put(\LenToUnit{1.8cm},\LenToUnit{-3cm-2.2cm}){%
-      \includegraphics[width=2.7cm]{src/profilePic.png}}}}
+      \includegraphics[width=3cm]{src/profilePic.png}}}}
 ```
 
-Zgierz, Poland · przemyslaw.swiderski7@gmail.com
+```{=html}
+<img src="src/profilePic.png" alt="Profile photo" width="120">
+```
+
+`\faMapMarker*\hspace{0.4em}`{=latex} Zgierz, Poland · `\faEnvelope\hspace{0.4em}`{=latex}[przemyslaw.swiderski7@gmail.com](mailto:przemyslaw.swiderski7@gmail.com)
 
 ## Summary
 
@@ -110,22 +122,26 @@ Thesis: Usage of a SaaS platform for development of an application supporting bo
 
 ## Skills
 
-**Languages:** Java, Kotlin, Python, SQL, JavaScript, TypeScript, C++
+**Languages:** Java, Kotlin, Python, SQL, JavaScript, TypeScript, C++, LaTeX
 
 **Frameworks:** Spring, Hibernate, React, Apache Kafka, Camel, ESP-IDF, Android, JUnit
 
-**Software / tools:** Claude Code, GitHub Copilot, Kubernetes, Docker, Tomcat, Jetty, Jira, Maven, Gradle, Git,
-Renovate, SonarQube
+**Tools:** Claude Code, GitHub Copilot, Kubernetes, Docker, Jira, Maven, Gradle, Git, Renovate, SonarQube
 
 **Operating systems:** Windows, Linux (Fedora, Ubuntu)
 
 **Databases:** Oracle, PostgreSQL, MongoDB
 
-**Methodologies:** Agile
+**Methodologies:** Agile, Waterfall, Scrum
 
-**Others:** GitHub Workflows, Betaflight, LaTeX
+**Others:** GitHub Workflows
+
+## Hobbies
+
+Working out, dancing, playing the guitar, investing, cooking.
 
 ## Links
 
-* **[Github](https://github.com/PrzemyslawSwiderski)**
-* **[LinkedIn](https://linkedin.com/in/pswidersk)**
+* **[`\faGithub\hspace{0.4em}`{=latex} Github](https://github.com/PrzemyslawSwiderski)**
+* **[`\faLinkedin\hspace{0.4em}`{=latex} LinkedIn Account](https://linkedin.com/in/pswidersk)**
+* **[`\faHeart\hspace{0.4em}`{=latex} My blog](https://blog.pswidersk.com/)**
