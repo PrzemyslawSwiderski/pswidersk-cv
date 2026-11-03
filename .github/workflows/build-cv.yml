@@ -4,6 +4,10 @@ on:
   push:
   workflow_dispatch:
 
+concurrency:
+  group: cv-release
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -40,5 +44,17 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ steps.release-date.outputs.tag }}
+          overwrite_files: true
+          files: build/CV/**
+
+      - name: Move latest tag to this commit
+        run: |
+          git tag --force latest "$GITHUB_SHA"
+          git push --force origin refs/tags/latest
+
+      - name: Update latest GitHub release and attach files
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: latest
           overwrite_files: true
           files: build/CV/**
